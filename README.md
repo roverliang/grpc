@@ -155,7 +155,7 @@ var_dump($response->getMsg());
 
 ```
 // 通过服务名称拨号一个连接
-$dialer = new \Mix\JsonRpc\Client\Dialer([
+$dialer = new \Mix\Grpc\Client\Dialer([
     'registry' => new \Mix\Micro\Etcd\Registry('http://127.0.0.1:2379/v3'),
 ]);
 $conn   = $dialer->dialFromService('php.micro.grpc.calculator');
