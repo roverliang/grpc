@@ -107,7 +107,7 @@ protoc.exe --php_out=. --mix_out=. greeter.proto
 }
 ```
 
-修改后执行 `composer dump-aotoload` 使其生效。
+修改后执行 `composer dump-autoload` 使其生效。
 
 ### 服务器
 
